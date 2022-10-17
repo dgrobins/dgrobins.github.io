@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="./tennis_view.css" rel="stylesheet">
+  </head>
+<body>
+  <h1>Cary Tennis Court Schedules</h1>
+  <ul>
+    <li><a href="https://games.townofcarync.gov/tenniscenter/displaystatus.php" target="_blank">
+	Cary Tennis (main page)</a></li>
+    <li><a href="https://www.hollyspringsnc.gov/1837/Tennis-Complex" target="_blank">
+	Holly Spring Tennis (main page)</a></li>
+    <li><a href="https://www.apexnc.org/417/Tennis" target="_blank">
+	Apex Tennis (main page)</a></li>
+  </ul>
+  <h2>Daily Schedules</h2>
+  <ul>
+    <li><a href="https://mycary.org/s/facilityAvailability?cr=a6b0h000000fxUqAAI" target="_blank">
+	Cary Tennis Park</a></li>
+    <li><a href="https://mycary.org/s/facilityAvailability?cr=a6b0h000000TfZGAA0" target="_blank">
+	Annis Jones</a></li>
+    <li><a href="https://mycary.org/s/facilityAvailability?cr=a6b0h000000blOpAAI" target="_blank">
+	Godbold</a></li>
+    <li><a href="https://mycary.org/s/facilityAvailability?cr=a6b0h000000Tfa4AAC" target="_blank">
+	Dunham</a></li>
+    <li><a href="https://mycary.org/s/facilityAvailability?cr=a6b0h000000TfaTAAS" target="_blank">
+	Middle Creek</a></li>
+    <br><li><a href="https://webtrac.hollyspringsnc.us/wbwsc/webtrac.wsc/search.html?display=detail&module=FR&type=Tennis%20Court&location=NMAC" target="_blank">
+	Ting</a></li>
+    <br><li><a href="https://www.apexnc.org/DocumentCenter/View/40890/TENNIS-COURTS-Closed----ACP-92122?bidId=" target="_blank">
+	Apex Community Park</a></li>
+    <li><a href="https://www.apexnc.org/DocumentCenter/View/30896/Tennis-Court-UseClosed---Apex-Nature-Park-PDF?bidId=" target="_blank">
+	Apex Nature Park</a></li>
+    <li><a href="https://www.apexnc.org/DocumentCenter/View/30897/Tennis-Court-UseClosed---Kelly-Road-Park-PDF?bidId=" target="_blank">
+	Kelly Road Park</a></li>
+  </ul>
+  <h2>Generate Time Table</h2>
+  <p>Click on link above and copy all webpage content (ctl-a, ctl-c),
+    and paste (ctl-a, ctl-v) to text box below. Then click 'Generate'.
+  </p>
+  <!---input id="schedule" type="text"--->
+  <textarea id="schedule" rows="3" cols="55" value=""></textarea>
+  <button type="button" onclick="GenerateScheduleTable()">Generate</button>
+  <div class="time_selection">
+  <h4>Time Selection:</h4>
+  <input type="radio" name="time_mode" value="fixed" checked="checked">fixed
+  <input type="radio" name="time_mode" value="event">event
+  <input type="radio" name="time_mode" value="flex">flex
+  </div>
+  <section id="schedule_text"></section>
+  <script src="tennis_gen_table.js"></script>
+  <!---script src="tennis_view.js"></script--->
+</body>
+</html>
+

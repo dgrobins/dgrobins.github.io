@@ -1,0 +1,31 @@
+td {
+    text-align: center;
+}
+
+.time_table {
+    font-size: 12px;
+}
+
+.time_table {
+    //table, th, td;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td:hover {
+    border: 2px solid red;
+}
+
+/*.res_table:hover {
+    color: red;
+}*/
+
+.res_table {
+    border: none;
+    text-align: left;
+}
+
+.time_selection {
+    //visibility: hidden;
+    visibility: visible;
+}
