@@ -1,0 +1,28 @@
+Tennis Viewer web page:
+
+10/10/2022:
+TODO Features:
+DONE.1. add border to table
+DONE.2. center table cells
+3. select cell/reservation to highlight all cells w/ same res#
+4. select row/col for better readability.
+DONE.5. reduce 'Start,End' columns to just 'Time'
+DONE.6. convert time to n?n:nn {AM,PM}.
+7. publish web page to web server (dangrobinson.net)
+8. find slots (duration specified 90min default) for given "fixed" time window and highlight.
+DONE.9. add hover highlighting/border(thick/color) for select/deselect?
+10. shadow highlight for col/row of selected cells.
+
+Aspirational:
+1. automatically extra data(src page) into table format, with 1 click, without copy/paste.
+2. present for multiple parks on 1 page (ctp+dunham+godbold+anniejones)
+3. improve error handling, instead of silent stop/drop-off.
+4. test all browsers (linux,windows,apple): firefox, chrome, safari, explorer
+5. test mobile devices?
+
+
+======
+Setting up webpage:
+
+domain name: dangrobinson.net
+web hosting: GitHub pages: dgrobins.github.io
